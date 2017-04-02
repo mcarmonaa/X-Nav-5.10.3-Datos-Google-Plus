@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Datos Google+">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript,jQuery">
+  <meta name="author" content="Manuel Carmona">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Datos Google+</title>
+
+  <!-- jQuery-UI style -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!-- jQuery-3.2.1 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>
+
+  <!-- jQuery-UI-1.12.1 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" defer></script>
+  <!-- My script -->
+  <script src="js/script.js" defer></script>
+
+  <!-- Google APIs client -->
+  <script src="https://apis.google.com/js/client:platform.js?onload=onLoadCallback" defer></script>
+
+</head>
+
+<body>
+  <div>
+    <ul>
+      <li>Alex Mackenzie-Torres: 108086881826934773478</li>
+      <li>Christina Collada: 103846222472267112072</li>
+    </ul>
+
+  </div>
+
+  <div>
+    <input type="text" id="userid" />
+    <button id="button">Request Activities</button>
+  </div>
+
+  <div id="user">
+  </div>
+
+  <div id="accordion" class="activities">
+  </div>
+
+</body>
+
+</html>
